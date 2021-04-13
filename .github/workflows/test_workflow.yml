@@ -10,7 +10,7 @@ jobs:
     name: Build job
     steps:
       - name: setup RELEASE_VERSION
-        run: echo "RELEASE_VERSION=${GITHUB_REF#refs/*/}" >> $GITHUB_ENV
+        run: echo "RELEASE_VERSION=2.14.1" >> $GITHUB_ENV
 
       - name: Login to Jira
         uses: atlassian/gajira-login@master
