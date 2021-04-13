@@ -24,7 +24,7 @@ jobs:
         with:
           project: ${{ secrets.JIRA_PROJECT }}
           issuetype: Task
-          fields: '{"priority": "Critical","components":"Mobile Engage SDK"}'
+          fields: '{"priority": "critical","components":["Mobile Engage SDK"]}'
           summary: |
             New Emarsys SDK release
           description: |
