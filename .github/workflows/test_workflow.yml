@@ -23,7 +23,7 @@ jobs:
         uses: atlassian/gajira-create@master
         with:
           project: ${{ secrets.JIRA_PROJECT }}
-          issuetype: Product Docs
+          issuetype: Product docs
           fields: '{"priority": {"name": "Major"},reporter:{"name":"Mobile SDK"}}'
           summary: |
             New Emarsys SDK release on Android (test ticket)
