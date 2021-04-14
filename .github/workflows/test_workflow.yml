@@ -24,8 +24,8 @@ jobs:
         with:
           project: ${{ secrets.JIRA_PROJECT }}
           issuetype: Task
-          fields: '{"priority": {"name": "Critical"},"components":[{"name":"Mobile Engage SDK"}]}'
+          fields: '{"priority": {"name": "Major"},reporter:{"name":"Mobile SDK"}}'
           summary: |
-            New Emarsys SDK release
+            New Emarsys SDK release on Android (test ticket)
           description: |
-            Emarsys SDK ${{env.RELEASE_VERSION}} has been released!
+           (test ticket) Emarsys SDK ${{env.RELEASE_VERSION}} has been released!
