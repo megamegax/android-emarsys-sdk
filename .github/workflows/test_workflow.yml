@@ -24,7 +24,7 @@ jobs:
         with:
           project: ${{ secrets.JIRA_PROJECT }}
           issuetype: Product docs
-          fields: '{"priority": {"name": "Major"},reporter:{"name":"Mobile SDK"}}'
+          fields: '{"priority": {"name": "Major"},"reporter":{"name":"Mobile SDK"}}'
           summary: |
             New Emarsys SDK release on Android (test ticket)
           description: |
